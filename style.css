@@ -1,0 +1,38 @@
+*{
+  transition: all 1s;;
+}
+
+body{
+  padding: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: row;
+}
+
+img{
+  width: 50px;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+}
+
+#cart{
+  background-color: salmon;
+
+}
+
+#cart, #items{
+  width: 50vw;
+}
+
+
+h1{
+  color: #7c32ff;
+}
+
+p{
+  color: green;
+  text-decoration: line-through;
+}
